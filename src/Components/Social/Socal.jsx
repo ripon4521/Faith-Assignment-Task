@@ -3,12 +3,12 @@ import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa6";
 
 const Socal = () => {
     return (
-        <div>
-            <p><FaFacebook></FaFacebook>Facebook</p>
-            <p><FaTwitter></FaTwitter>Facebook</p>
-            <p><FaYoutube></FaYoutube>Facebook</p>
-            <p><FaInstagram></FaInstagram>Facebook</p>
-        </div>
+        <div className="container mx-auto flex justify-center  gap-20">
+            <p   className=" flex items-center gap-2 text-2xl font-roboto text-blue-600"><FaFacebook></FaFacebook>Facebook</p>
+            <p  className="flex items-center gap-2 text-2xl font-roboto text-blue-600"><FaTwitter></FaTwitter>Twiter</p>
+            <p  className="flex items-center gap-2 text-2xl font-roboto text-red-600"><FaYoutube></FaYoutube>Youtube</p>
+            <p  className="flex items-center gap-2 text-2xl font-roboto text-yellow-600"><FaInstagram></FaInstagram>Instagram</p>
+        </div> 
     );
 };
 
