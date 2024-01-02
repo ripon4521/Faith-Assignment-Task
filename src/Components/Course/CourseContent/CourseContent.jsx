@@ -1,3 +1,4 @@
+import AboutInstructor from "./AboutInstructor";
 import KeyTopic from "./KeyTopic";
 import Navbar from "./Navbar";
 import WhatExscpt from "./WhatExscpt";
@@ -19,6 +20,7 @@ const CourseContent = () => {
 
            <WhatExscpt></WhatExscpt>
            <KeyTopic></KeyTopic>
+           
            
         </div>
     );
